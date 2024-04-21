@@ -55,7 +55,7 @@ exit
 docker container run \
  --detach \
  --name mydb \
- -e MYSQL_ROOT_PASSWORD=hello246 \
+ -e MYSQL_ROOT_PASSWORD=<your-secret-password> \
  mysql:latest
 ```
 ### List the running containers
